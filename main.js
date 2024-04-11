@@ -13,8 +13,8 @@ let marker = L.marker([lat, lng]).addTo(map);
 marker.bindPopup(`
     <h2>Lake Pukaki</h2>
     <ul>
-        <li>Breite: ${lat}</li>
-        <li>Länge: ${lng}</li>
+        <li>Breite: ${lat.toFixed(5)}</li>
+        <li>Länge: ${lng.toFixed(5)}</li>
     </ul>
 `).openPopup();
 
