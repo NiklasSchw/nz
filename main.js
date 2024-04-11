@@ -21,3 +21,6 @@ marker.bindPopup(`
     </ul>
 `).openPopup();
 
+L.control.scale({
+    imperial:false,
+}).addTo(map);
